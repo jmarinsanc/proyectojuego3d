@@ -1,0 +1,1463 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16251 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/alumTA/Desktop/3Djuego/juego3d/proyecto3D
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49561
+Successfully changed project path to: C:/Users/alumTA/Desktop/3Djuego/juego3d/proyecto3D
+C:/Users/alumTA/Desktop/3Djuego/juego3d/proyecto3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9328] Host "[IP] 172.20.17.106 [Port] 0 [Flags] 2 [Guid] 2404002368 [EditorId] 2404002368 [Version] 1048832 [Id] WindowsEditor(7,3masanz-A17-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9328] Host "[IP] 172.20.17.106 [Port] 0 [Flags] 2 [Guid] 2404002368 [EditorId] 2404002368 [Version] 1048832 [Id] WindowsEditor(7,3masanz-A17-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 4.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/alumTA/Desktop/3Djuego/juego3d/proyecto3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x2188)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006796 seconds.
+- Loaded All Assemblies, in  0.331 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.202 seconds
+Domain Reload Profiling: 532ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (86ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (141ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (202ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (154ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.480 seconds
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.431 seconds
+Domain Reload Profiling: 909ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (289ms)
+		LoadAssemblies (227ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (105ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (431ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (318ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3069 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3531.
+Memory consumption went from 114.3 MB to 114.3 MB.
+Total: 3.332400 ms (FindLiveObjects: 0.264100 ms CreateObjectMapping: 0.171700 ms MarkObjects: 2.795800 ms  DeleteObjects: 0.099700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.333 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.647 seconds
+Domain Reload Profiling: 978ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (201ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (648ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (293ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (216ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3535.
+Memory consumption went from 113.4 MB to 113.4 MB.
+Total: 1.881000 ms (FindLiveObjects: 0.165300 ms CreateObjectMapping: 0.087000 ms MarkObjects: 1.596000 ms  DeleteObjects: 0.031700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12893.547115 seconds.
+  path: Assets/scripts/PlayerController.cs
+  artifactKey: Guid(10faf266d34949248857944598fcb1bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/PlayerController.cs using Guid(10faf266d34949248857944598fcb1bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f29dc8ad1f66d401a0e20f3806c5b716') in 0.081409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Zombie/Materials/Zombie.mat
+  artifactKey: Guid(9fdb5531bdf185e448dd06dfa8192f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zombie/Materials/Zombie.mat using Guid(9fdb5531bdf185e448dd06dfa8192f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49b517d027548b0f393685d644b98b90') in 0.038991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Unique/Unique_Stack_A2.prefab
+  artifactKey: Guid(c2405413bd98ab141b1822f5c33cefe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Unique/Unique_Stack_A2.prefab using Guid(c2405413bd98ab141b1822f5c33cefe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb50bbeaefb167bf03331de226e4c0d4') in 0.009083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_1A.prefab
+  artifactKey: Guid(a37a82400f24f5545893616ed7058e65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_1A.prefab using Guid(a37a82400f24f5545893616ed7058e65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9dcab5def286dab06ce9fc82df506ec3') in 0.007075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Zombie/Animations/Z_FallingBack.anim
+  artifactKey: Guid(812aae90a9297f249908057eed4c0879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zombie/Animations/Z_FallingBack.anim using Guid(812aae90a9297f249908057eed4c0879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ce42a674e30a62ea9207dfc351e2b64') in 0.017198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/6x6x.25_Floor_A.prefab
+  artifactKey: Guid(34b2d1dd2a655044baffd5492ce00b25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/6x6x.25_Floor_A.prefab using Guid(34b2d1dd2a655044baffd5492ce00b25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7bf57d1bc6ca02c3bc268bfe188110f') in 0.005452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Unique/Single_Group_Tall_Corner_1A.prefab
+  artifactKey: Guid(d5591532f6f476545812f89f363aef03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Unique/Single_Group_Tall_Corner_1A.prefab using Guid(d5591532f6f476545812f89f363aef03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f752e446f3199e070ad46efca855c8ac') in 0.005978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/(P&W)Temple_Edition/FBX/Group_4.fbx
+  artifactKey: Guid(816e3385712df2741a8c45d58783e2d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/FBX/Group_4.fbx using Guid(816e3385712df2741a8c45d58783e2d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a656434d75348800e38f9ffff074dc77') in 0.037023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 78
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Beams/Beam_1A.prefab
+  artifactKey: Guid(0d818e959afe8b04899e9b1a638833f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Beams/Beam_1A.prefab using Guid(0d818e959afe8b04899e9b1a638833f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '615a16972344ec8c56fcc3dce4dd471a') in 0.006758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Group_Walls/Barrier_Corner_1C.prefab
+  artifactKey: Guid(59b6b9be558d11b4280354d8a31f12a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Group_Walls/Barrier_Corner_1C.prefab using Guid(59b6b9be558d11b4280354d8a31f12a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5943e0ba5b4b6402f92fba78480df55c') in 0.003447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Beams/Beam_4A.prefab
+  artifactKey: Guid(47aa0538a228f60409f362c13b205927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Beams/Beam_4A.prefab using Guid(47aa0538a228f60409f362c13b205927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb087f73b9a0f3e0e73d9311fb2f9565') in 0.005405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Zombie/Animations/Zombie.controller
+  artifactKey: Guid(2ef8e6599b7f9934e8ff0d64c5325a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zombie/Animations/Zombie.controller using Guid(2ef8e6599b7f9934e8ff0d64c5325a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a17138de0619572b06543e2fdea5aa88') in 0.036311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Zombie/Animations/Zombie@Z_Walk1.FBX
+  artifactKey: Guid(1d31b4476a14a0246b2e0f023e8877fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zombie/Animations/Zombie@Z_Walk1.FBX using Guid(1d31b4476a14a0246b2e0f023e8877fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '348a8b582f6ebef92d53679e7628886b') in 0.032444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 173
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_Corner_1C.prefab
+  artifactKey: Guid(efb1589787bd12d40b7fd5f3021cbb9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_Corner_1C.prefab using Guid(efb1589787bd12d40b7fd5f3021cbb9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d15e68db465d1ba092c8cac672ebd47') in 0.003976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Unique/Unique_Stack_C3.prefab
+  artifactKey: Guid(a00864ba4e6cb5048a32a1183f2e3c65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Unique/Unique_Stack_C3.prefab using Guid(a00864ba4e6cb5048a32a1183f2e3c65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33d59fe05476e1f4167ce3848b252bb3') in 0.003741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/(P&W)Temple_Edition/FBX/Group_2.fbx
+  artifactKey: Guid(f047c5b035f7ea346922c1355ce6d6dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/FBX/Group_2.fbx using Guid(f047c5b035f7ea346922c1355ce6d6dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8419593226c3d95ca7ff5a3c13f36aa') in 0.018100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Beams/Beam_5A.prefab
+  artifactKey: Guid(a8e9b2622db46b74485a39051f9b9925) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Beams/Beam_5A.prefab using Guid(a8e9b2622db46b74485a39051f9b9925) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd65b036bf93c777a73e106aaecfaaff5') in 0.008212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/(P&W)Temple_Edition/FBX/Group_10.fbx
+  artifactKey: Guid(a3e92437b953c8144a81673e19f5faaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/FBX/Group_10.fbx using Guid(a3e92437b953c8144a81673e19f5faaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae6e4064c48bc2f7e9f9bad030a3f4b8') in 0.022454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Unique/Unique_Wall_A.prefab
+  artifactKey: Guid(12395003ee41459419602395fa58ce79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Unique/Unique_Wall_A.prefab using Guid(12395003ee41459419602395fa58ce79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7cb2b6aa3b313b8e2ab7a68ffeae5b0') in 0.005078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/(P&W)Temple_Edition/FBX/Materials/Collider_Transparent.mat
+  artifactKey: Guid(12e3b3fd95770274d9f4e0708a0978f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/FBX/Materials/Collider_Transparent.mat using Guid(12e3b3fd95770274d9f4e0708a0978f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a1d8b4855e7283cb614d903291a3766') in 0.007602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Zombie/Prefabs/Zombie1.prefab
+  artifactKey: Guid(6dc4cf4496348884d8ee27743ae38562) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zombie/Prefabs/Zombie1.prefab using Guid(6dc4cf4496348884d8ee27743ae38562) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '222e59797ecb427338b7205342c07c66') in 0.041340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 195
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Zombie/Animations/Z_Walk1_InPlace.anim
+  artifactKey: Guid(a0389bcc17a6335409898ddb374c1570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zombie/Animations/Z_Walk1_InPlace.anim using Guid(a0389bcc17a6335409898ddb374c1570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9010101643f59772dfa9a3d165b5ade') in 0.009614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Unique/Unique_Full_Railing_1.prefab
+  artifactKey: Guid(e60b00c9694f3834ea5cb0ddc3f89f84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Unique/Unique_Full_Railing_1.prefab using Guid(e60b00c9694f3834ea5cb0ddc3f89f84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e41ad47b59d3b07f7e020388a1f21e34') in 0.006455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Zombie/Textures/zombie_emission.tga
+  artifactKey: Guid(d681134af7b3e50479d8d90effa0e1eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zombie/Textures/zombie_emission.tga using Guid(d681134af7b3e50479d8d90effa0e1eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9134b33587c4cc7d4058f7e36543365') in 0.037464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/(P&W)Temple_Edition/FBX/Group_11.fbx
+  artifactKey: Guid(f343696efbf83b549817f225c91a52a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/FBX/Group_11.fbx using Guid(f343696efbf83b549817f225c91a52a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e675e577cacfd9a1003f945b9b22f285') in 0.023911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Group_Walls/Barrier_Group_1C.prefab
+  artifactKey: Guid(4fab3768423dec142814885b3abf0073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Group_Walls/Barrier_Group_1C.prefab using Guid(4fab3768423dec142814885b3abf0073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc217fda0f3b893384ade3bcf4822671') in 0.004501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/(P&W)Temple_Edition/FBX/Group_8.fbx
+  artifactKey: Guid(a1ce5be76dbaf4c4398d8d6789a61fe8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/FBX/Group_8.fbx using Guid(a1ce5be76dbaf4c4398d8d6789a61fe8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90622958ef15f5bddb2451f574728988') in 0.043942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 174
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_2B.prefab
+  artifactKey: Guid(dd2f33ebc5e822f4eb3fe949e5318ee1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_2B.prefab using Guid(dd2f33ebc5e822f4eb3fe949e5318ee1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb08c14937fc21885e845f812a1fe2c3') in 0.006698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Arch_2B.prefab
+  artifactKey: Guid(34620a9cd9f072743bea0e40b0801577) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Arch_2B.prefab using Guid(34620a9cd9f072743bea0e40b0801577) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7269074b6fe584aa78f9113c042db937') in 0.007076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Pillar_1A.prefab
+  artifactKey: Guid(4b02537de9fddad4a9b0b09f7900c4d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Pillar_1A.prefab using Guid(4b02537de9fddad4a9b0b09f7900c4d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7a05d1073ca6fd50730c83e5cd164da') in 0.006723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Pillar_1B.prefab
+  artifactKey: Guid(0019ebc6ed3c67045a9d43ee9c4d67e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Pillar_1B.prefab using Guid(0019ebc6ed3c67045a9d43ee9c4d67e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f11da9dd5c5b9beedaed3ce9ec8e8a41') in 0.005117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_1A(Mirrored).prefab
+  artifactKey: Guid(12aaebe014024374f9b47f517c56458c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_1A(Mirrored).prefab using Guid(12aaebe014024374f9b47f517c56458c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf2d44a060c3666956aeaf44389a4bdc') in 0.006439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_3A.prefab
+  artifactKey: Guid(41e367ea7d06b3946a0e532215df103d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_3A.prefab using Guid(41e367ea7d06b3946a0e532215df103d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2dc7979ba70bd0fd4c5d3dfb8b51a9a') in 0.007968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2F.prefab
+  artifactKey: Guid(d2c809dcae272984da962a4ec0f491fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2F.prefab using Guid(d2c809dcae272984da962a4ec0f491fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b86a6afc93b4c9f98d291d48caef33cf') in 0.006663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_1C.prefab
+  artifactKey: Guid(fd87d5fa99b0145478a0da52d045d96d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_1C.prefab using Guid(fd87d5fa99b0145478a0da52d045d96d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25251e9dfbb96cab04961f2eb5dc68c8') in 0.006762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_2B.prefab
+  artifactKey: Guid(1e8d857b5266cd847b9c61a3f37ad7ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_2B.prefab using Guid(1e8d857b5266cd847b9c61a3f37ad7ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44985ded9fcf297b6a52c7caa82075a1') in 0.005945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_1E.prefab
+  artifactKey: Guid(99f5a9a463ae37747a587ed26299f5ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_1E.prefab using Guid(99f5a9a463ae37747a587ed26299f5ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8eed5d5cc8ff45b47d4e74c28eb8bee0') in 0.007260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/(P&W)Temple_Edition/Textures/Walls_1(Bumped).png
+  artifactKey: Guid(bc0b60e8540352e4ab28509d9932eb4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Textures/Walls_1(Bumped).png using Guid(bc0b60e8540352e4ab28509d9932eb4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2d654bef8327fa8cc72f87d12ff70c9') in 0.019640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/FBX/Group_5.fbx
+  artifactKey: Guid(de7507b9d0f8a864bb79be28961d74a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/FBX/Group_5.fbx using Guid(de7507b9d0f8a864bb79be28961d74a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b36648fcebfcfe5a59f02760ca3ade32') in 0.027106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 78
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/(P&W)Temple_Edition/FBX/Group_3.fbx
+  artifactKey: Guid(2e8bc81596d3b974ebff9d0e870a5def) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/FBX/Group_3.fbx using Guid(2e8bc81596d3b974ebff9d0e870a5def) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0634d4832676ff6b251180cc82453045') in 0.015029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Unique/Unique_Stack_B3.prefab
+  artifactKey: Guid(d3a09f7d6475b9d41ac15b65c4e383d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Unique/Unique_Stack_B3.prefab using Guid(d3a09f7d6475b9d41ac15b65c4e383d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8230aecac6707bf610c6f10c4e42a0b7') in 0.004401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Zombie/Animations/Z_Walk_InPlace.anim
+  artifactKey: Guid(37e6af8636979e04086967e3bd667606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zombie/Animations/Z_Walk_InPlace.anim using Guid(37e6af8636979e04086967e3bd667606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '367f0afe79db3e5d188d8bed66bdd134') in 0.014126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/8x8x.25_Floor_B.prefab
+  artifactKey: Guid(4393b915fa9fdc24a86303bb9e3df7ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/8x8x.25_Floor_B.prefab using Guid(4393b915fa9fdc24a86303bb9e3df7ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f77e19577c4839bf7d31c683c827e66') in 0.007257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_2A.prefab
+  artifactKey: Guid(98d67ce22188b8343b8371076aa102c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Group_Walls/Single_Group_2A.prefab using Guid(98d67ce22188b8343b8371076aa102c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '583af723d170676e21eabaf0b50ffb10') in 0.004419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Stairs_Platform_2A.prefab
+  artifactKey: Guid(413fef35b2d9c104c8bfee9613919420) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Stairs_Platform_2A.prefab using Guid(413fef35b2d9c104c8bfee9613919420) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96bd771304ef59bfb3afb309139f1bd7') in 0.004918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_2C.prefab
+  artifactKey: Guid(1ad567903343cd54e96c9321b94fa452) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_2C.prefab using Guid(1ad567903343cd54e96c9321b94fa452) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '177b10f28ef75a1d5c270e5ac294378c') in 0.006795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Unique/Unique_Stack_B2.prefab
+  artifactKey: Guid(c94fdba45314df84c829d34c695ff16f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Unique/Unique_Stack_B2.prefab using Guid(c94fdba45314df84c829d34c695ff16f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74d80801ef3656760e6c8f680db0beb4') in 0.004600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Zombie/Animations/Zombie@Z_Run_InPlace.FBX
+  artifactKey: Guid(79969b20b5ba62e499ee433a4dd38701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zombie/Animations/Zombie@Z_Run_InPlace.FBX using Guid(79969b20b5ba62e499ee433a4dd38701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '248e35dfd4171ec5d27c21ad7edf4d17') in 0.033118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 173
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX
+  artifactKey: Guid(165698eac7ca81041ad603fc5a3afa55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX using Guid(165698eac7ca81041ad603fc5a3afa55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f135d777a60fa13d2c3f7ea4cf6b8c93') in 0.044393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_1B.prefab
+  artifactKey: Guid(79716a57baeb67f458c982c28351d0ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_1B.prefab using Guid(79716a57baeb67f458c982c28351d0ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d9da8d6c34ed6c51b2d9d94f8f4fd1b') in 0.006765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Zombie/Prefabs/Zombie2.prefab
+  artifactKey: Guid(d58be77cba3adf54cb14b15052b86514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zombie/Prefabs/Zombie2.prefab using Guid(d58be77cba3adf54cb14b15052b86514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '129a88a4a68dc79d9142e1146ae24597') in 0.043122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 147
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Zombie/FBXs/Zombie2.FBX
+  artifactKey: Guid(6a28a82791e0b224081a04d42d031ccf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zombie/FBXs/Zombie2.FBX using Guid(6a28a82791e0b224081a04d42d031ccf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b41ef2991ded66274d3015236ea8b783') in 0.023208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 124
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Group_Walls/Barrier_Group_1B.prefab
+  artifactKey: Guid(48a80c4f502398d4b9b5c39780d92cde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Group_Walls/Barrier_Group_1B.prefab using Guid(48a80c4f502398d4b9b5c39780d92cde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e03041694e0e56a284dbcecbe8b8940') in 0.003787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2C.prefab
+  artifactKey: Guid(4ab94ba3fd350e3498b8a81e3adb270b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2C.prefab using Guid(4ab94ba3fd350e3498b8a81e3adb270b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7bc9b1ceaf1116b7220b34d04f9d930') in 0.006487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/6x6x.25_Floor_B.prefab
+  artifactKey: Guid(2221bb8a9a61ffa4e8a0ad56cf586985) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/6x6x.25_Floor_B.prefab using Guid(2221bb8a9a61ffa4e8a0ad56cf586985) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f8c86e21817b1d93eb93f8d6c00305a') in 0.005573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/(P&W)Temple_Edition/FBX/Materials/unnamed.mat
+  artifactKey: Guid(c9fb0dfd5001bba47919d508aa959a5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/FBX/Materials/unnamed.mat using Guid(c9fb0dfd5001bba47919d508aa959a5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c887e6bd7334a947178b00ccfab77d4c') in 0.027859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/(P&W)Temple_Edition/Materials/Walls_1.mat
+  artifactKey: Guid(06bdaa8cc4f7eb442a1f7fd031c597b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Materials/Walls_1.mat using Guid(06bdaa8cc4f7eb442a1f7fd031c597b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea49d52b602e7b22caa1e7a81aac074a') in 0.006146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_1B.prefab
+  artifactKey: Guid(be7e78284823c324f8c967401fb2d544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_1B.prefab using Guid(be7e78284823c324f8c967401fb2d544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e4f93088956f9c0fa57d9ceabbf262a') in 0.006347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX
+  artifactKey: Guid(3fa7045af54b82c47852949257d136c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX using Guid(3fa7045af54b82c47852949257d136c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9580f1fb405841b84461f4bac097fac') in 0.038020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 173
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Zombie/Textures/Zombie_nm.png
+  artifactKey: Guid(decb53c07686cc94b860f8e04d438d22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zombie/Textures/Zombie_nm.png using Guid(decb53c07686cc94b860f8e04d438d22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85e655b35f6c0c982b49f9e413960d2a') in 0.017612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2E.prefab
+  artifactKey: Guid(e8d8e7457b559584b92a136ef7f3d42f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_2E.prefab using Guid(e8d8e7457b559584b92a136ef7f3d42f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08d89c8e2dc90ffe9c0535b0aa3eb870') in 0.003705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/(P&W)Temple_Edition/FBX/Group_7.fbx
+  artifactKey: Guid(3f45de12e0148be46b5e47eaa83fcf5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/FBX/Group_7.fbx using Guid(3f45de12e0148be46b5e47eaa83fcf5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ccacca6bde132f8f6a96703b19b2ea7') in 0.020669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Zombie/Animations/Z_Walk1.anim
+  artifactKey: Guid(2695de705873c1f44ac4a4341c85c8a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Zombie/Animations/Z_Walk1.anim using Guid(2695de705873c1f44ac4a4341c85c8a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe54d5085fc46962c67b68ff01d37fd6') in 0.011881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_3A.prefab
+  artifactKey: Guid(73292deef85e2b845b6028dfda0da7e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_3A.prefab using Guid(73292deef85e2b845b6028dfda0da7e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3cb22f01bb6437991de2342987554786') in 0.005867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_3C.prefab
+  artifactKey: Guid(8f3c67e30c7d6244e8f831b8b76716e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_3C.prefab using Guid(8f3c67e30c7d6244e8f831b8b76716e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9608b094a93126b120776962b2d7f06a') in 0.007288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Arch_1A.prefab
+  artifactKey: Guid(5689a8a39a1d97448adea6ec47f87311) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Arch_1A.prefab using Guid(5689a8a39a1d97448adea6ec47f87311) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a9de9fb6ce75447af54b7bef83f773c') in 0.008552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Small_Objects/Post_1B.prefab
+  artifactKey: Guid(fbc52284e4715714996b7e6ba349d1de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Small_Objects/Post_1B.prefab using Guid(fbc52284e4715714996b7e6ba349d1de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8723a7775e0e2814233211fa19bf532') in 0.008427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_3A.prefab
+  artifactKey: Guid(31743983382775342b0550a50dd9ab21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_3A.prefab using Guid(31743983382775342b0550a50dd9ab21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf5c2f36650c78e982b120bceff16cf3') in 0.009570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_2B.prefab
+  artifactKey: Guid(9247a6e19e4975a4ca2497b585f3b7ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_2B.prefab using Guid(9247a6e19e4975a4ca2497b585f3b7ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad6144efd4088e80f9751e074dd70b4d') in 0.007464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_1B.prefab
+  artifactKey: Guid(271fe4f4df1c33f4292080b514738780) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_1B.prefab using Guid(271fe4f4df1c33f4292080b514738780) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c6791abdec4d8ed5c87718c7d3ca4e8') in 0.008297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Small_Objects/Post_1C.prefab
+  artifactKey: Guid(d47aa8c9ee25dee41be74492ace2a4c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Small_Objects/Post_1C.prefab using Guid(d47aa8c9ee25dee41be74492ace2a4c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10df81262c9b217035373ef6ad400b35') in 0.007243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_4B.prefab
+  artifactKey: Guid(4c82e530ff0d18d4b99aff4ca99c9075) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_4B.prefab using Guid(4c82e530ff0d18d4b99aff4ca99c9075) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6573039da0e1803d725343537062f09') in 0.007088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.004885 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_3B.prefab
+  artifactKey: Guid(8cafe781adcbe594d9b33200268a416f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_3B.prefab using Guid(8cafe781adcbe594d9b33200268a416f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '984f89f8236ac41b726ae6ed7efbfa20') in 0.006470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_2A.prefab
+  artifactKey: Guid(e329017a95e8e384ca7b1c1cc0aa29b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_2A.prefab using Guid(e329017a95e8e384ca7b1c1cc0aa29b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73cf6f445d26e9bc49511c365b49a992') in 0.008441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Small_Objects/Torch_Post_1B.prefab
+  artifactKey: Guid(8a2aeff86632a13449c9500501aac006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Small_Objects/Torch_Post_1B.prefab using Guid(8a2aeff86632a13449c9500501aac006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a310df6b9b127f789aa2195a526e834') in 0.007762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_1A.prefab
+  artifactKey: Guid(af7b8785698bb30479cdffb3d749add9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_1A.prefab using Guid(af7b8785698bb30479cdffb3d749add9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b2e5c184a8941d9f808cd6512638b5c') in 0.006240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_2B.prefab
+  artifactKey: Guid(90af3ab726a8e6a448c6c01d38d99bc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_2B.prefab using Guid(90af3ab726a8e6a448c6c01d38d99bc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '479b03fd450e944d47c6576fbd533408') in 0.006755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Unique/Structures/Entrance_1B.prefab
+  artifactKey: Guid(353299737a2325048a5e22147ebca727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Unique/Structures/Entrance_1B.prefab using Guid(353299737a2325048a5e22147ebca727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3adbb6df00ef85b5398310e5c4690d80') in 0.005169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Ramp_1B.prefab
+  artifactKey: Guid(07608978fe585c144a4419b3f968ecfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Ramp_1B.prefab using Guid(07608978fe585c144a4419b3f968ecfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fd10ec2773dc47ac0f8a5f13f293f61') in 0.004508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_4B.prefab
+  artifactKey: Guid(06773ab212406424f9c68991900bfb37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_4B.prefab using Guid(06773ab212406424f9c68991900bfb37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5498e369eba79511df1772c89f366b4b') in 0.006774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_Post_2D.prefab
+  artifactKey: Guid(1e9549bfdfd98f848aa0837bfeb999b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_Post_2D.prefab using Guid(1e9549bfdfd98f848aa0837bfeb999b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa4b67e594f33a7c2993a9df8f36685c') in 0.008182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Small_Objects/Torch_Post_1A.prefab
+  artifactKey: Guid(b35a09d21a62ef342ac58022060577d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Small_Objects/Torch_Post_1A.prefab using Guid(b35a09d21a62ef342ac58022060577d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a7918cae6e0ccb49dc0c98d59711a7b') in 0.007673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_4A.prefab
+  artifactKey: Guid(0a3d4e82b84227245b07cf79502f8691) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_4A.prefab using Guid(0a3d4e82b84227245b07cf79502f8691) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6c1d12c26f3f9b5d6ff4f3265461131') in 0.006707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_6A.prefab
+  artifactKey: Guid(334d02345cc1cb44baff16df3273a9b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_6A.prefab using Guid(334d02345cc1cb44baff16df3273a9b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16ce187edd079f926ccf63de124bb494') in 0.006758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_1D.prefab
+  artifactKey: Guid(b0842a38e42f46e4b86901c5aa4b1951) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_Corner_1D.prefab using Guid(b0842a38e42f46e4b86901c5aa4b1951) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dea27db92a2800650b73b1e99e65eb68') in 0.006553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Stairs_Platform_1B.prefab
+  artifactKey: Guid(88e2d673966e5644c8105c1849d4cd71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Stairs_Platform_1B.prefab using Guid(88e2d673966e5644c8105c1849d4cd71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69e496455df5763ac19e48a0c282e67e') in 0.004079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_1D.prefab
+  artifactKey: Guid(9beb2e3c3cbea5643a5ec538dbfc4647) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Walls/Basic_Wall_1D.prefab using Guid(9beb2e3c3cbea5643a5ec538dbfc4647) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36005fd22f3f3abb395146effd3e73e5') in 0.006967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_2A.prefab
+  artifactKey: Guid(e55efdb94a2e3a84ba58784ff75f340a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_2A.prefab using Guid(e55efdb94a2e3a84ba58784ff75f340a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '258c30d7147674c9f27d6edd5c4fd359') in 0.007610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_2B.prefab
+  artifactKey: Guid(6b16cff9dded12f48a1c20483725f39a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_2B.prefab using Guid(6b16cff9dded12f48a1c20483725f39a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '853ab87843a40c8a0faba5be873db523') in 0.006840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_3B.prefab
+  artifactKey: Guid(44931f54983f023479c28df081629efa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_3B.prefab using Guid(44931f54983f023479c28df081629efa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '250c1a629fc04f34d8fe17791fc2a4a9') in 0.008021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_1A.prefab
+  artifactKey: Guid(fcebf27ac8d69a94794204ab9212f330) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_1A.prefab using Guid(fcebf27ac8d69a94794204ab9212f330) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'edf9edac613acd21c65609c6e788426d') in 0.006446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_1A.prefab
+  artifactKey: Guid(44c9ed942beffd147b53a3fac27c1d28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_1A.prefab using Guid(44c9ed942beffd147b53a3fac27c1d28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63e7d28cdc1368e548ee7d74d82779cb') in 0.005543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_2C.prefab
+  artifactKey: Guid(da627216d7f05b444872851db70b6c9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_2C.prefab using Guid(da627216d7f05b444872851db70b6c9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '813a2cd08c9676c097374ebbcc97eefd') in 0.006450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Arch_1B.prefab
+  artifactKey: Guid(128e269db08b07a45b3de8a4cc44d56e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Arch_1B.prefab using Guid(128e269db08b07a45b3de8a4cc44d56e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d3e7b149ac701fa431517428ea21542') in 0.007232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_3C.prefab
+  artifactKey: Guid(20ecef2ced7cff3439cd00998d7a831d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_3C.prefab using Guid(20ecef2ced7cff3439cd00998d7a831d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1cb38e00b4760d8f2a2c534060b0125') in 0.006705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_3A.prefab
+  artifactKey: Guid(17d7774524d652b4f9b18ad3b81a220b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_3A.prefab using Guid(17d7774524d652b4f9b18ad3b81a220b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1b9bbf8a6a802c3ebda76e9649a052c') in 0.008414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_1D.prefab
+  artifactKey: Guid(d4a668cfb2cdaa44f8589f9c07e69164) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_1D.prefab using Guid(d4a668cfb2cdaa44f8589f9c07e69164) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d780768be2bbe50f1f504197f3043b0') in 0.006331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_4B.prefab
+  artifactKey: Guid(61495b190d23b434aba0db1f127cec42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_4B.prefab using Guid(61495b190d23b434aba0db1f127cec42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c31088b9a511bfadf9b9f0e98f92ed12') in 0.006036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_3B.prefab
+  artifactKey: Guid(12844d9f630303a4e9e33322d1fe74bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Rounded_Walls/HD_Rounded_Wall_3B.prefab using Guid(12844d9f630303a4e9e33322d1fe74bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8b23ec5673276b0ad6ffdbdc4a95c8a') in 0.006923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Unique/Structures/Entrance_1C.prefab
+  artifactKey: Guid(16b5b05435475dc4e8ed8a5eb5d2aceb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Unique/Structures/Entrance_1C.prefab using Guid(16b5b05435475dc4e8ed8a5eb5d2aceb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '748d59f927bf24cae066a16a47f805bf') in 0.005380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 217
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Small_Objects/Post_1A.prefab
+  artifactKey: Guid(6b4ded83b0a1d1544a53f911d0fa3fe5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Small_Objects/Post_1A.prefab using Guid(6b4ded83b0a1d1544a53f911d0fa3fe5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '494fd29032597154f9b5f85e86ef5f69') in 0.005100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_4A.prefab
+  artifactKey: Guid(f84e5dc8074279b4981ddbe3a717dfd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_4A.prefab using Guid(f84e5dc8074279b4981ddbe3a717dfd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '064e5c59913fc236dc007ddeb850ff86') in 0.006130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_3B.prefab
+  artifactKey: Guid(74e71171d30bc2447a58fac6724cc99c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_3B.prefab using Guid(74e71171d30bc2447a58fac6724cc99c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9385b83b9b1a5750bd1f718893782806') in 0.006658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_2A.prefab
+  artifactKey: Guid(b34651291333ce341b1a606896679d00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_2A.prefab using Guid(b34651291333ce341b1a606896679d00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cfd798fd0ce5ba538aa77adb00a1474') in 0.005489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Ramp_3B.prefab
+  artifactKey: Guid(121fdc29dbbde9045939e9f3b65d1ef3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Archs/HD_Tunnel_Ramp_3B.prefab using Guid(121fdc29dbbde9045939e9f3b65d1ef3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2722de4a12c06a861bbf918e8758423b') in 0.004323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_Post_2C.prefab
+  artifactKey: Guid(4d9bb6af92f496f4da0b40c735db8846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_Post_2C.prefab using Guid(4d9bb6af92f496f4da0b40c735db8846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e7fdc52b7ac34ba71c119949d64dc36') in 0.006278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_1B.prefab
+  artifactKey: Guid(90ccfa4885fd17c43b347e48b2a9d0f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_1B.prefab using Guid(90ccfa4885fd17c43b347e48b2a9d0f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0241cdc3115b4b4cc5af251a25d5f068') in 0.006196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_5A.prefab
+  artifactKey: Guid(526f8b42dddfb824e8e1cb25a3ca8964) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Platforms/HD_Platform_5A.prefab using Guid(526f8b42dddfb824e8e1cb25a3ca8964) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24bd4ab967a608db8b23c4df0cdf31b2') in 0.005936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_2C.prefab
+  artifactKey: Guid(e8056c5f13717b9408a67167af32435b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Barriers/HD_Railing_2C.prefab using Guid(e8056c5f13717b9408a67167af32435b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c9db3e5e01017c652b3bbca93c2c917') in 0.006304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Corner_1A.prefab
+  artifactKey: Guid(0ecb79e60e8da8047937117f93f6be37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Corner_1A.prefab using Guid(0ecb79e60e8da8047937117f93f6be37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '544dcf4569fd56fdf7c72168de870c06') in 0.003380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_2A.prefab
+  artifactKey: Guid(01e63049057df584b8388adcdadbfc8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Basic/Platforms/Block_Platform_2A.prefab using Guid(01e63049057df584b8388adcdadbfc8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d135b25b155fd4cc0fc224c1b927c0e') in 0.006040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_Group_1A.prefab
+  artifactKey: Guid(10500f5d10ef64643b91af16cac0b544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Railings/HD_Railing_Post_Group_1A.prefab using Guid(10500f5d10ef64643b91af16cac0b544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b6e08b5b6429a80b393f89148fe3954') in 0.006366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_4A.prefab
+  artifactKey: Guid(b16718f5ea643a747a3dd30760d9d5c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/High_Detailed/Walls/HD_Wall_4A.prefab using Guid(b16718f5ea643a747a3dd30760d9d5c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '004cd36a0a99ada7c199ec8f281f110a') in 0.007362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.131049 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Unique/Structures/Entrance_2B.prefab
+  artifactKey: Guid(69560b8489478d14ead5ab6d3c4b0ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Unique/Structures/Entrance_2B.prefab using Guid(69560b8489478d14ead5ab6d3c4b0ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a68cb96491e8b2b15a0a5a8590ec1c8') in 0.004907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Unique/Structures/Temple_Stairs_Entrance_1A.prefab
+  artifactKey: Guid(bb5ecee03989d1e4c94b9586f554567c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Unique/Structures/Temple_Stairs_Entrance_1A.prefab using Guid(bb5ecee03989d1e4c94b9586f554567c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5f48c84c939fd7d3ef688555bc26bf3') in 0.004595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 102
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Unique/Structures/Entrance_3A.prefab
+  artifactKey: Guid(b9ab508ee71d0cf4b8f8baf8861fbb50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Unique/Structures/Entrance_3A.prefab using Guid(b9ab508ee71d0cf4b8f8baf8861fbb50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '880929b422d2ae833c377661feef3bb5') in 0.005086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/(P&W)Temple_Edition/Prefabs/Unique/Structures/Temple_Stairs_Entrance_1B.prefab
+  artifactKey: Guid(32123f2723048764983025e1387e8c4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/(P&W)Temple_Edition/Prefabs/Unique/Structures/Temple_Stairs_Entrance_1B.prefab using Guid(32123f2723048764983025e1387e8c4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '005276bba036726ef010bac8a6ac47b5') in 0.006944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 171
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.336 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.670 seconds
+Domain Reload Profiling: 1004ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (670ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (301ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3541.
+Memory consumption went from 114.5 MB to 114.5 MB.
+Total: 2.307600 ms (FindLiveObjects: 0.164100 ms CreateObjectMapping: 0.086000 ms MarkObjects: 2.021600 ms  DeleteObjects: 0.034800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.331 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.668 seconds
+Domain Reload Profiling: 997ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (198ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (669ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (317ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3544.
+Memory consumption went from 114.7 MB to 114.7 MB.
+Total: 2.717800 ms (FindLiveObjects: 0.162000 ms CreateObjectMapping: 0.092500 ms MarkObjects: 2.423300 ms  DeleteObjects: 0.039400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 807.241469 seconds.
+  path: Assets/Zombie/Textures/Zombie_ao.png
+  artifactKey: Guid(4ef3438267568cd40b87841c3e2c22c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Textures/Zombie_ao.png using Guid(4ef3438267568cd40b87841c3e2c22c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f6c7c11f360eb4b9e0896561a9b51d') in 0.050356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Zombie/Textures/Zombie_metallic.tga
+  artifactKey: Guid(33de7c829c3a0224c8975ad93b61b05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Textures/Zombie_metallic.tga using Guid(33de7c829c3a0224c8975ad93b61b05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de42381199b9cce8bf2f79a894299e3a') in 0.010382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Zombie/Textures/Zombie_nm.png
+  artifactKey: Guid(decb53c07686cc94b860f8e04d438d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Textures/Zombie_nm.png using Guid(decb53c07686cc94b860f8e04d438d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248f705237d1c68e8455c13636b31fce') in 0.036100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
